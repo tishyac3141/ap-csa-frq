@@ -19,6 +19,7 @@ public class Frog {
     private int hopDistance(){
 
         Random random = new Random();
+        //this random number represents the distance the frog is hopping in this one hop
         int distance = random.nextInt(100);
         if(distance == 0) distance = 1;
 
