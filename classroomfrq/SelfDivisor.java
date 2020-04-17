@@ -38,7 +38,19 @@ public class SelfDivisor {
         return isSelf;
     }
 
-//    public static int[] firstNumSelfDivisors(int start, int num){
+    public static int[] firstNumSelfDivisors(int start, int num){
+        int[] nums = new int[num];
 
-  //  }
+        int currentNumber = start;
+        int count = 0;
+
+        while(count < num){
+            currentNumber++;
+            if(isSelfDivisor(currentNumber)) count++;
+            nums[count] = currentNumber;
+        }
+        
+        return nums;
+
+    }
 }
