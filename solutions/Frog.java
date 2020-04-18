@@ -2,6 +2,10 @@ package solutions;
 
 import java.util.Random;
 
+/**
+ * SOLUTION
+ */
+
 public class Frog {
 
     private int goalDistance;
@@ -28,14 +32,6 @@ public class Frog {
         else return distance;
     }
 
-    /**
-     * has the frog hop, using the hopDistance() method, until:
-     * 1) it reaches it's goal,
-     * 2) the distance value becomes negative
-     * 3) it hops the maximum amount of hops allowed (specified by field 'maxHops')
-     * 
-     * @return returns whether the frog reached it's goal or not
-     */
     public boolean simulate(){
         
         int totalDistance = 0;
@@ -51,11 +47,6 @@ public class Frog {
 
     }
 
-    /**
-     * returns the ratio of how many times the frog reached it's goal by 
-     * calling simulate() the specified amount of times
-     * @return returns a double value 
-     */
     public double runSimulations(int num){
 
         int amountTrue = 0;
@@ -66,7 +57,7 @@ public class Frog {
             }
 
         }
-
+        //don't forget to cast!!
         return (double) amountTrue / num;
     }
 }
