@@ -30,6 +30,13 @@ public class StudentRecord {
         return false;
     }
 
+    /**
+     * if the values in scores have improved, then return the normal average
+     * of the elements in 'scores' with indexes greater than or equal to
+     * scores.length/2
+     * 
+     * otherwise, return the average of all the values in 'scores'
+     */
     public double finalAverage(){
         //your code here
         return 0.0;
