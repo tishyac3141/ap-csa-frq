@@ -8,7 +8,7 @@ public class StudentAnswerSheet {
     private String name;
 
     public StudentAnswerSheet(ArrayList<String> ans, String ireum){
-        name = ireum;
+        name = ireum; //personal touch there; 'ireum' means name in Korean
         answers = ans;
     }
 

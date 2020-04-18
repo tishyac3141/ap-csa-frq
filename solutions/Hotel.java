@@ -2,6 +2,10 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * SOLUTION
+ */
+
 public class Hotel {
 
     private Reservation[] rooms;

@@ -3,7 +3,7 @@ package questions;
 import java.util.ArrayList;
 
 /**
- * QUESTION INCLUDES RESERVATION CLASS; FIND IT FOR FULL PROBLEM
+ * QUESTION INCLUDES RESERVATION CLASS
  */
 
 public class Hotel {
