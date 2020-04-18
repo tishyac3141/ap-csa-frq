@@ -1,4 +1,4 @@
-package classroomfrq;
+package solutions;
 
 import java.util.ArrayList;
 
