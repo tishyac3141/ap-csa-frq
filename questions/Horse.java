@@ -1,5 +1,13 @@
 package questions;
 
-public class Horse {
+/**
+ * SUPPLEMENTARY TO HORSE BARN
+ * FIND HORSEBARN FOR FULL QUESTION
+ */
+
+public interface Horse {
+    
+    String getName();
+    int getWeight();
 
 }

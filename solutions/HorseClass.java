@@ -1,5 +1,10 @@
 package solutions;
 
+/**
+ * CREATED FOR TEST PURPOSES ONLY (so you can run your code)
+ * SUPPLEMENTARY TO HORSEBARN and HORSE (interface)
+ */
+
 public class HorseClass implements Horse{
 
     private String name;
