@@ -6,6 +6,7 @@ public class Main {
 
         //System.out.println(SelfDivisor.isSelfDivisor(684));
 
+        /*
         Horse[] horses = new Horse[7];
         horses[0] = new HorseClass(1340, "Trigger");
         horses[1] = null;
@@ -29,7 +30,33 @@ public class Main {
             if(newHorses[i] == null) System.out.print("null ");
             else System.out.print(newHorses[i].getName() + " ");
         }
+        */
 
+
+        Customer[] list1 = new Customer[8];
+        Customer[] list2 = new Customer[7];
+        Customer[] result = new Customer[6];
+       
+        for(int i = 0; i < result.length; i++){
+            result[i] = null;
+        }
+        
+        list[0] = new Customer("Arthur", 4920);
+        list[1] = new Customer("Burton", 3911);
+        list[2] = new Customer("Burton", 4944);
+        list[3] = new Customer("Franz", 1692);
+        list[4] = new Customer("Horton", 9221);
+        list[5] = new Customer("Jones", 5554);
+        list[6] = new Customer("Miller", 9360);
+        list[8] = new Customer("Nguyen", 4339);
+
+        list2[0] =
+        list2[1] =
+        list2[2] = 
+        list2[3] =
+        list2[4] =
+        list2[5] =
+        list2[6] =
     }
 
 }
