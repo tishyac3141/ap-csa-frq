@@ -48,7 +48,7 @@ public class Customer {
     }
 
 
-    public Customer[] prefixMerge(Customer[] list1, Customer[] list2, Customer[] result){
+    public static Customer[] prefixMerge(Customer[] list1, Customer[] list2, Customer[] result){
         //your code here
         return result;
     }

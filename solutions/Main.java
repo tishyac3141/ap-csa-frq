@@ -7,6 +7,10 @@ public class Main {
         //System.out.println(SelfDivisor.isSelfDivisor(684));
 
         /*
+         * Test the Horse class with the following code
+         * Final result should be: "Trigger", "Silver", "Patches", "Duke", null null, null
+        */
+        /*
         Horse[] horses = new Horse[7];
         horses[0] = new HorseClass(1340, "Trigger");
         horses[1] = null;
@@ -32,7 +36,11 @@ public class Main {
         }
         */
 
+        /*
+         * Use this class to test your Customer code
+         * Your final result
 
+         */
         Customer[] list1 = new Customer[8];
         Customer[] list2 = new Customer[7];
         Customer[] result = new Customer[6];
@@ -41,22 +49,41 @@ public class Main {
             result[i] = null;
         }
         
-        list[0] = new Customer("Arthur", 4920);
-        list[1] = new Customer("Burton", 3911);
-        list[2] = new Customer("Burton", 4944);
-        list[3] = new Customer("Franz", 1692);
-        list[4] = new Customer("Horton", 9221);
-        list[5] = new Customer("Jones", 5554);
-        list[6] = new Customer("Miller", 9360);
-        list[8] = new Customer("Nguyen", 4339);
+        list1[0] = new Customer("Arthur", 4920);
+        list1[1] = new Customer("Burton", 3911);
+        list1[2] = new Customer("Burton", 4944);
+        list1[3] = new Customer("Franz", 1692);
+        list1[4] = new Customer("Horton", 9221);
+        list1[5] = new Customer("Jones", 5554);
+        list1[6] = new Customer("Miller", 9360);
+        list1[7] = new Customer("Nguyen", 4339);
 
-        list2[0] =
-        list2[1] =
-        list2[2] = 
-        list2[3] =
-        list2[4] =
-        list2[5] =
-        list2[6] =
+        list2[0] = new Customer("Aaron", 1729);
+        list2[1] = new Customer("Baker", 2921);
+        list2[2] = new Customer("Burton", 3911);
+        list2[3] = new Customer("Dillard", 6552);
+        list2[4] = new Customer("Jones", 5554);
+        list2[5] = new Customer("Miller", 9360);
+        list2[6] = new Customer("Noble", 3335);
+
+        for(int i = 0; i < list1.length; i++){
+            System.out.print(list1[i].getName() + " ");
+        }
+
+        System.out.println();
+
+        for(int i = 0; i < list2.length; i++){
+            System.out.print(list2[i].getName() + " ");
+        }
+
+        System.out.println();
+        result = Customer.prefixMerge(list1, list2, result);
+
+        for(int i = 0; i < result.length; i++){
+            System.out.print(result[i].getName() + " ");
+        }
+
+        
     }
 
 }
