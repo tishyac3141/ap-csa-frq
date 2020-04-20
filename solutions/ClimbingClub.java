@@ -35,9 +35,4 @@ public class ClimbingClub {
     }
 
 
-    public int distinctPeakNames(){
-        //your code here
-        return 0;
-    }
-
 }

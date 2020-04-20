@@ -38,6 +38,12 @@ public class ClimbingClub {
     /**
      * Consider the following implementation of the method below
      * Which is supposed to return the number of different names in 'climbList'
+     * 
+     * Does this work for the first implementation of 'addClimb()'? 
+     * YES or NO
+     *
+     * Does this work for the second implementation of 'addClimb()'?
+     * YES or NO
      */
     public int distinctPeakNames(){
         if(climbList.size() == 0){
