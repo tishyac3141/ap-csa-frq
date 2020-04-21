@@ -8,7 +8,8 @@ package questions;
 public class DownloadInfo {
 
     String title;
-    int timesDownloaded = 0;
+    //always start at 1 (yes this is important)
+    int timesDownloaded = 1;
 
     public DownloadInfo(String title){
         this.title = title;

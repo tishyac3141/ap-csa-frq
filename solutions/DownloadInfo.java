@@ -3,7 +3,8 @@ package solutions;
 public class DownloadInfo {
 
     String title;
-    int timesDownloaded = 0;
+    //always automatically starts at 1 (yes this is important)
+    int timesDownloaded = 1;
 
     public DownloadInfo(String title){
         this.title = title;

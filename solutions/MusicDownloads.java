@@ -41,7 +41,6 @@ public class MusicDownloads {
 
             if(current == null){
                 DownloadInfo toAdd = new DownloadInfo(currentTitle);
-                toAdd.incrementTimesDownloaded();
                 downloadList.add(toAdd);
             }
             else{
