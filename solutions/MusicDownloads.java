@@ -3,6 +3,10 @@ package solutions;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * HAS DOWNLOADINFO.JAVA AS A SUPPLEMENTARY CLASS
+ */
+
 public class MusicDownloads {
 
     private List<DownloadInfo> downloadList;

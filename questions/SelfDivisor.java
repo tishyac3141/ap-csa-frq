@@ -2,6 +2,10 @@ package questions;
 
 import java.util.ArrayList;
 
+/**
+ * STAND ALONE QUESTION
+ */
+
 public class SelfDivisor {
 
     /**

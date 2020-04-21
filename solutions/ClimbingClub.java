@@ -3,6 +3,10 @@ package solutions;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * HAS CLIMBINFO.JAVA AS A SUPPLEMENTARY CLASS
+ */
+
 public class ClimbingClub {
 
     private List<ClimbInfo> climbList;

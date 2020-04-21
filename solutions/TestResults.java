@@ -2,6 +2,10 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * STUDENTANSWERSHEET.JAVA IS A SUPPLEMENTARY CLASS
+ */
+
 public class TestResults {
 
     private ArrayList<StudentAnswerSheet> sheets;

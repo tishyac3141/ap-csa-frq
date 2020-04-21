@@ -1,7 +1,7 @@
 package solutions;
 
 /**
- * SOLUTION
+ * STAND ALONE SOLUTION
  */
 
 public class StudentRecord {

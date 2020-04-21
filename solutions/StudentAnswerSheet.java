@@ -2,13 +2,17 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * HAS TESTRESULTS.JAVA AS A SUPPLEMENTARY CLASS
+ */
+
 public class StudentAnswerSheet {
     
     private ArrayList<String> answers; //list of student's answers
     private String name;
 
     public StudentAnswerSheet(ArrayList<String> ans, String ireum){
-        name = ireum; //personal touch there; 'ireum' means name in Korean
+        name = ireum; //personal touch there; 'ireum' means name in Korean :)
         answers = ans;
     }
 

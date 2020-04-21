@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * SUPPLEMENTARY TO CLIMBINGCLUB.JAVA
+ */
+
 public class ClimbInfo {
 
     String name;

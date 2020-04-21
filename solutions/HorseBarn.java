@@ -1,7 +1,6 @@
 package solutions;
 
 /**
- * SOLUTION
  * SEE 'HORSE' and 'HORSECLASS' TO TEST CODE
  */
 

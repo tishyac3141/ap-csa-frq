@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * SUPPLEMENTARY TO MUSICDOWNLOADS.JAVA
+ */
+
 public class DownloadInfo {
 
     String title;
