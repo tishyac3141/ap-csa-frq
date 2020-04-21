@@ -89,6 +89,16 @@ public class Main {
         }
         */
 
+        /**
+         * Test the MusicDownloads class with the following
+         * Final result should be:
+         * 
+         * Hey Jude 5
+         * Soul Sister 5
+         * Aqualung 11
+         * Lights 2
+         * Go Now 1
+         
         ArrayList<DownloadInfo> list = new ArrayList<DownloadInfo>(3);
 
         DownloadInfo song1 = new DownloadInfo("Hey Jude");
@@ -117,6 +127,17 @@ public class Main {
         titles.add("Lights");
         titles.add("Soul Sister");
 
+        MusicDownloads playlist = new MusicDownloads(list);
+        playlist.updateDownloads(titles);
+        List<DownloadInfo> newList = playlist.getList();
+
+        for(int i = 0; i < newList.size(); i++){
+            System.out.print(newList.get(i).getTitle() + " ");
+            System.out.print(newList.get(i).getTimesDownloaded());
+            System.out.println();
+        }
+
+        */
         
     }
 

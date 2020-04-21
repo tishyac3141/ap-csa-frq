@@ -13,6 +13,10 @@ public class DownloadInfo {
         return title;
     }
 
+    public int getTimesDownloaded(){
+        return timesDownloaded;
+    }
+
     public void incrementTimesDownloaded(){
         timesDownloaded++;
     }
