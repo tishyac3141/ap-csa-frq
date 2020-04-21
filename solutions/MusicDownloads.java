@@ -12,6 +12,15 @@ public class MusicDownloads {
     }
 
     public DownloadInfo getDownloadInfo(String title){
+        if(downloadList.size() == 0) return null;
+
+        DownloadInfo other;
+        for(int i = 0; i < downloadList.size(); i++){
+            other = downloadList.get(i);
+            if(other.getTitle().equals(title) ){
+                return other;
+            }
+        }
         return null;
     }
 

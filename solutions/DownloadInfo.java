@@ -3,6 +3,7 @@ package solutions;
 public class DownloadInfo {
 
     String title;
+    int timesDownloaded = 0;
 
     public DownloadInfo(String title){
         this.title = title;
@@ -13,7 +14,7 @@ public class DownloadInfo {
     }
 
     public void incrementTimesDownloaded(){
-        
+        timesDownloaded++;
     }
 
 }
