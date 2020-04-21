@@ -33,6 +33,7 @@ public class Scramble {
         return newWord;
     }
 
+    //returns an arrayList for test purposes only; not included in original question
     public static ArrayList<String> scrambleOrRemove(ArrayList<String> wordList){
         
         String scrambledWord = "";
