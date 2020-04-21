@@ -4,10 +4,6 @@ import java.util.ArrayList;
 
 public class SelfDivisor {
 
-    public SelfDivisor(){
-
-    }
-
     public static boolean isSelfDivisor(int number){
         
         ArrayList<Integer> digitsOfNum = new ArrayList<Integer>();
