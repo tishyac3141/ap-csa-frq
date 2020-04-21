@@ -138,6 +138,36 @@ public class Main {
         }
 
         */
+
+        /**
+         * Test the scramble class using the following segment of code
+         * 
+         * The final printed result should be:
+         * TNA, BARCADABARA, PAPLE 
+         
+
+        ArrayList<String> list = new ArrayList<String>(5);
+        list.add(0, "TAN");
+        list.add(1, "ABRACADABRA");
+        list.add(2, "WHOA");
+        list.add(3, "APPLE");
+        list.add(4, "EGGS");
+
+        for(int i = 0; i < list.size(); i++){
+            System.out.print(list.get(i) + " ");
+        }
+        System.out.println();
+
+        ArrayList<String> scrambled = Scramble.scrambleOrRemove(list);
+
+        for(int i = 0; i < scrambled.size(); i++){
+            System.out.print(scrambled.get(i) + ", ");
+        }
+
+        System.out.println();
+        System.out.println(Scramble.scrambleWord("APPLE"));
+
+        */
         
     }
 
