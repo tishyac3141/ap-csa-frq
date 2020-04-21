@@ -11,6 +11,11 @@ public class MusicDownloads {
         downloadList = new ArrayList<DownloadInfo>();
     }
 
+    //for test purposes only, not included in original question
+    public MusicDownloads(ArrayList<DownloadInfo> list){
+        downloadList = list;
+    }
+
     public DownloadInfo getDownloadInfo(String title){
         if(downloadList.size() == 0) return null;
 
@@ -24,4 +29,29 @@ public class MusicDownloads {
         return null;
     }
 
+    public void updateDownloads(List<String> titles){
+
+        String currentTitle;
+        DownloadInfo current;
+
+        for(int i = 0; i < titles.size(); i++){
+            currentTitle = titles.get(i);
+
+            current = getDownloadInfo(currentTitle);
+
+            if(current == null){
+                DownloadInfo toAdd = new DownloadInfo(currentTitle);
+                toAdd.incrementTimesDownloaded();
+                downloadList.add(toAdd);
+            }
+            else{
+                current.incrementTimesDownloaded();
+            }
+        }
+    }
+    
+    //for test purposes only, not included in original question
+    public List<DownloadInfo> getList(){
+        return downloadList;
+    }
 }

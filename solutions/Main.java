@@ -1,5 +1,8 @@
 package solutions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args){
@@ -38,9 +41,11 @@ public class Main {
 
         /*
          * Use this class to test your Customer code
-         * Your final result
+         * Your final result should be:
+         * 
+         * Aaron, Arthur, Baker, Burton, Burton, Dillard
 
-         */
+         
         Customer[] list1 = new Customer[8];
         Customer[] list2 = new Customer[7];
         Customer[] result = new Customer[6];
@@ -82,6 +87,35 @@ public class Main {
         for(int i = 0; i < result.length; i++){
             System.out.print(result[i].getName() + " ");
         }
+        */
+
+        ArrayList<DownloadInfo> list = new ArrayList<DownloadInfo>(3);
+
+        DownloadInfo song1 = new DownloadInfo("Hey Jude");
+        for(int i = 0; i < 5; i++){
+            song1.incrementTimesDownloaded();
+        }
+        list.add(0, song1);
+
+        DownloadInfo song2 = new DownloadInfo("Soul Sister");
+        for(int i = 0; i < 3; i++){
+            song2.incrementTimesDownloaded();
+        }
+        list.add(1, song2);
+
+        DownloadInfo song3 = new DownloadInfo("Aqualung");
+        for(int i = 0; i < 10; i++){
+            song3.incrementTimesDownloaded();
+        }
+        list.add(2, song3);
+
+        ArrayList<String> titles = new ArrayList<String>();
+        titles.add("Lights");
+        titles.add("Aqualung");
+        titles.add("Soul Sister");
+        titles.add("Go Now");
+        titles.add("Lights");
+        titles.add("Soul Sister");
 
         
     }
