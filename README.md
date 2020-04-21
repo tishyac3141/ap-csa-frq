@@ -8,3 +8,5 @@ the 'Main' class in both the 'solutions' and 'questions' branch has some test co
 please note that some of the questions are taken from while I was preparing for the AP CSA exam
 and AP Classroom provided additional practice, as well as old frq's from previous year's exams
 
+please keep in mind this is a work in progress and some classes may be unfinished 
+
