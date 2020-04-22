@@ -27,7 +27,37 @@ public class LogMessage {
     }
 
     public boolean containsWord(String keyword){
-        return false;
+
+        int position = description.indexOf(keyword);
+        //System.out.println(description + " " + position);
+
+        if(position < 0) return false;
+
+        else if(position == 0){
+            if(Character.isWhitespace(description.charAt(position + 4))){
+                return true;
+            }
+            else{
+                return false;
+            }
+
+        } 
+        
+        else if(position == (description.length() - 4)){
+            if(Character.isWhitespace(description.charAt(position - 1))){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+
+        else if(Character.isWhitespace(description.charAt(position + 4))){
+            return true;
+        }
+        
+        else return false;
+
     }   
 
     public String getMachineID(){
