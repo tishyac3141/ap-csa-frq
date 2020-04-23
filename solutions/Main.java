@@ -169,7 +169,21 @@ public class Main {
 
         */
 
-        
+        /**
+         * Use this to test your LogMessage and SystemLog classes
+         * The final output should be:
+         * 
+         * the list that contains the keyword correctly is: 
+         * Webserver:disk offline 
+         * SERVER2:read error on disk DSK1 
+         * SERVER1:write error on disk DSK2 
+         *
+         * the list that does not correctly contain the keyword is: 
+         * CLIENT3:security alert - repeated login failures 
+         * SERVER1:file not found 
+         * Webserver:error on /dev/disk 
+         
+
         ArrayList<LogMessage> messages = new ArrayList<LogMessage>();
         messages.add(new LogMessage("CLIENT3:security alert - repeated login failures"));
         messages.add(new LogMessage("Webserver:disk offline"));
@@ -194,9 +208,9 @@ public class Main {
 
         for(int i = 0; i < doesNotContainKeywords.size(); i++){
             lm = doesNotContainKeywords.get(i);
-            System.out.print(lm.getMachineID() + ":" + lm.getDescription() + " ");
+            System.out.println(lm.getMachineID() + ":" + lm.getDescription() + " ");
         }
-        
+        */
         
     } 
 
