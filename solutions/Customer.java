@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * work in progress; does not work
+ */
+
 public class Customer {
 
     String name;

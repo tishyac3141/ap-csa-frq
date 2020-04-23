@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args){
@@ -210,6 +212,15 @@ public class Main {
             System.out.println(lm.getMachineID() + ":" + lm.getDescription() + " ");
         }
         */
+
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("AP");
+        list.add("Computer");
+        list.add("Science");
+        list.add("Rocks");
+
+        System.out.println();
+        System.out.println(StringFormatter.format(list, 30));
         
     }
 
