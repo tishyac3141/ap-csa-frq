@@ -29,7 +29,6 @@ public class LogMessage {
     public boolean containsWord(String keyword){
 
         int position = description.indexOf(keyword);
-        //System.out.println(description + " " + position);
 
         if(position < 0) return false;
 

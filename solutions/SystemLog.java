@@ -21,7 +21,6 @@ public class SystemLog {
         LogMessage message;
         for(int i = 0; i < messageList.size(); i++){
             message = messageList.get(i);
-            //System.out.println("message = " + message);
 
             if(message.containsWord(keyword)){
                 containsKeyword.add(message);
