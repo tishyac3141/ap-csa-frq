@@ -215,12 +215,22 @@ public class Main {
 
         ArrayList<String> list = new ArrayList<String>();
         list.add("AP");
-        list.add("Computer");
-        list.add("Science");
+        list.add("Comp");
+        list.add("Sci");
         list.add("Rocks");
 
         System.out.println();
-        System.out.println(StringFormatter.format(list, 30));
+        System.out.println(StringFormatter.format(list, 20));
+        
+
+        ArrayList<String> list2 = new ArrayList<String>();
+        list2.add("Green");
+        list2.add("Eggs");
+        list2.add("And");
+        list2.add("Ham");
+
+        System.out.println();
+        System.out.println(StringFormatter.format(list2, 20));
         
     }
 

@@ -5,7 +5,8 @@ import java.util.List;
 /**
  * STAND ALONE QUESTION
  * 
- * 
+ * this question is wack, so bear with me,, the solution works, but i need to upload the question 
+ * seperately
  */
 
 
