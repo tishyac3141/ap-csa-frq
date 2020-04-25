@@ -213,6 +213,29 @@ public class Main {
         }
         */
 
+        /**
+         * Use this to test your StringFormatter class
+         * Make sure to add proper 'System.out.println()' within your 'format()' method
+         * so your output looks like this:
+         * 
+         * total amt of letters = 14
+         * number of gaps = 3
+         * basic width gap = 2
+         * left over = 0
+         * AP  Comp  Sci  Rocks  
+         * 
+         * total amt of letters = 15
+         * number of gaps = 3
+         * basic width gap = 1
+         * left over = 2
+         * Green  Eggs  And Ham 
+         * 
+         * total amt of letters = 9
+         * number of gaps = 1
+         * basic width gap = 11
+         * left over = 0
+         * Beach           Ball    
+         
         ArrayList<String> list = new ArrayList<String>();
         list.add("AP");
         list.add("Comp");
@@ -232,6 +255,14 @@ public class Main {
         System.out.println();
         System.out.println(StringFormatter.format(list2, 20));
         
+        ArrayList<String> list3 = new ArrayList<String>();
+        list3.add("Beach");
+        list3.add("Ball");
+        
+        System.out.println();
+        System.out.println(StringFormatter.format(list3, 20));
+
+        */
     }
 
 }

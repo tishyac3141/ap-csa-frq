@@ -23,9 +23,6 @@ public class StringFormatter {
         int difference = formattedLen - amtLetters; 
         int numGaps = wordList.size() - 1;
 
-        System.out.println("total amt of letters = " + amtLetters);
-        System.out.println("number of gaps = " + numGaps);
-
         if(numGaps == difference) return width;
 
         while((width * numGaps) < difference){
