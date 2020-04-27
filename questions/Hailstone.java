@@ -56,13 +56,30 @@ public class Hailstone {
      * Write the method isLongSeq(int n), which returns true if the hailstone sequence starting 
      * with n is considered long and returns false otherwise. Assume that hailstoneLength works as intended,
      * regardless of what you wrote in part (a). You must use hailstoneLength() 
-     * appropriately to receive full credi
+     * appropriately to receive full credit.
+     * 
+     * returns true is the length is greater than the starting value and false if not
      */
     public static boolean isLongSeq(int n) { 
         //your code here
         return false;
     }
 
+    /**
+     * The method propLong(int n) returns the proportion of long hailstone sequences with starting 
+     * values between 1 and n, inclusive.
+     * 
+     * For example, if 10 were passed into this method, then it would test whether or not the sequence
+     * is 'long' (as defined in part b) for each value between 1 and 10, inclusive.
+     * The method would return the amount of times the sequence was long divided by the total amount
+     * of sequences tested.
+     * 
+     * In this case, 5 of the 10 sequences were long, so the method would return 0.5.
+     * 
+     * Write the propLong method. Assume that hailstoneLength and isLongSeq work as intended, 
+     * regardless of what you wrote in parts (a) and (b). You must use isLongSeq appropriately to 
+     * receive full credit.
+     */
     public static double propLong(int n) {  
         //your code here
         return 0;
