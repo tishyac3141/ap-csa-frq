@@ -280,6 +280,26 @@ public class Main {
         System.out.println(collector.getNumGoodReviews("spoon"));
 
         */
+
+        /**
+         Use this to test your WordScrambler class
+         
+
+        String[] array = {"apple", "pear", "this", "cat"};
+        WordScrambler scrambler = new WordScrambler(array);
+
+        for(int i = 0; i < array.length; i++){
+            System.out.print(array[i] + " ");
+        }
+
+        System.out.println();
+
+        String[] array2 = scrambler.mixedWords(array);
+        for(int i = 0; i < array2.length; i++){
+            System.out.print(array2[i] + " ");
+        }
+
+        */
         
     } 
 
