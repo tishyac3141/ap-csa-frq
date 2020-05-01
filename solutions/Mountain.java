@@ -1,7 +1,16 @@
 package solutions;
 
+/**
+ * STAND ALONE QUESTION
+ */
+
 public class Mountain {
 
+    /**
+     * use this to test your code
+     * make sure to test multiple inputs as specified in the question
+     * @param args
+     */
     public static void main(String[] args){
         int[] array = {3, 2, 1};
         for(int i = 0; i < array.length; i++){

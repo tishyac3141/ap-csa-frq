@@ -1,5 +1,9 @@
 package questions;
 
+/**
+ * STAND ALONE QUESTION
+ */
+
 public class Mountain {
 
     /**
