@@ -263,6 +263,24 @@ public class Main {
 
         */
         
+        /**
+         * Use this to test your ReviewCollector.java class
+         
+
+        ArrayList<ProductReview> list = new ArrayList<ProductReview>();
+        list.add(new ProductReview("spoon", "best"));
+        list.add(new ProductReview("spoon", "Best"));
+        list.add(new ProductReview("spoon", "BESR"));
+        list.add(new ProductReview("spoon", "abestutensil"));
+        list.add(new ProductReview("spoon", "bestthingever"));
+
+        ReviewCollector collector = new ReviewCollector(list);
+        collector.addReview(new ProductReview("spoon", "bs"));
+
+        System.out.println(collector.getNumGoodReviews("spoon"));
+
+        */
+        
     } 
 
 }

@@ -1,7 +1,7 @@
 package questions;
 
 /**
- * SUPPLEMENTARY WITH REVIEWCOLLECTOR
+ * SUPPLEMENTARY WITH REVIEWCOLLECTOR; SEE IT FOR FULL QUESTION
  */
 
 public class ProductReview {
