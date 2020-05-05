@@ -7,12 +7,14 @@ import java.util.ArrayList;
 
 public class DailySchedule {
     
+    //added a specific type for the arrayList because that is better to do in java
     private ArrayList<Appointment> apptList;
 
     public DailySchedule(){
         apptList = new ArrayList<Appointment>();
     }
 
+    //added for test purposes only, not in original question
     public DailySchedule(ArrayList<Appointment> list){
         apptList = list;
     }
