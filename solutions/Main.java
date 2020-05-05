@@ -300,7 +300,44 @@ public class Main {
         }
 
         */
+
+        /**
+         * Use this to test your DailySchedule + Appointment classes
+         * your final ouput should be:
+         * 
+         * 5 3 2 3 4 1 1 3
+         * 5 4 2 1 1 
+         * true
+         */
+
+        ArrayList<Appointment> list = new ArrayList<Appointment>();
+        list.add(new Appointment(5));
+        list.add(new Appointment(3));
+        list.add(new Appointment(2));
+        list.add(new Appointment(3));
+        list.add(new Appointment(4));
+        list.add(new Appointment(1));
+        list.add(new Appointment(1));
+        list.add(new Appointment(3));
         
+        for(int i = 0; i < list.size(); i++){
+            System.out.print(list.get(i).getTime().getInterval() + " ");
+        }
+
+        System.out.println();
+
+        DailySchedule schedule = new DailySchedule(list);
+        Appointment appt = new Appointment(3);
+        ArrayList<Appointment> newList = schedule.clearConflicts(appt);
+
+        for(int i = 0; i < newList.size(); i++){
+           System.out.print(newList.get(i).getTime().getInterval() + " ");
+        }
+
+        System.out.println();
+        System.out.println(schedule.addAppt(appt, true));
+        
+       
     } 
 
 }
