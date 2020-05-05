@@ -14,6 +14,7 @@ public class Appointment {
         interval = new TimeInterval(0);
     }
 
+    //added for test purposes only, not in original question
     public Appointment(int hours){
         interval = new TimeInterval(hours);
     }    
