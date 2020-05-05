@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * SUPPLEMENTARY WITH SEAT.JAVA
+ */
+
 public class Theater {
     private Seat[][] theaterSeats;
 

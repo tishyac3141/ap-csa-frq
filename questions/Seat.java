@@ -1,8 +1,9 @@
-package solutions;
+package questions;
 
 /**
- * SUPPLEMENTARY TO THEATER.JAVA
+ * SUPPLEMENTARY QUESTION; LOOK AT THEATER.JAVA FOR FULL QUESTION
  */
+
 public class Seat {
 
     private boolean available;
@@ -24,4 +25,5 @@ public class Seat {
     public void setAvailability(boolean isAvail){
         available = isAvail;
     }
+    
 }
