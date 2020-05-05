@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * STAND ALONE QUESTION
+ */
+
 public class GameSpinner {
 
     private int sectors;
