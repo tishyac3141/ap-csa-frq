@@ -1,7 +1,9 @@
 package solutions;
 
 import java.util.ArrayList;
-
+/**
+ * SUPPLEMENTARY WITH APPOINTMENT.JAVA *and* TIMEINTERVAL.JAVA
+ */
 
 public class DailySchedule {
     

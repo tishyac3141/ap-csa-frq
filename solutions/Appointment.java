@@ -2,6 +2,10 @@ package solutions;
 
 import solutions.TimeInterval;
 
+/**
+ * SUPPLEMENTARY WITH TIMEINTERVAL.JAVA *and* DAILYSCHEDULE.JAVA
+ */
+
 public class Appointment {
     
     private TimeInterval interval;
