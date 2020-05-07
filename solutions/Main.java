@@ -310,6 +310,10 @@ public class Main {
          * true
          */
 
+         /**
+          * Use this to test your Appointment + Daily Schedule classes
+          
+
         ArrayList<Appointment> list = new ArrayList<Appointment>();
         list.add(new Appointment(5));
         list.add(new Appointment(3));
@@ -336,6 +340,8 @@ public class Main {
 
         System.out.println();
         System.out.println(schedule.addAppt(appt, true));
+
+        */
         
        
     } 
