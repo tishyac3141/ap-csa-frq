@@ -1,5 +1,10 @@
 package solutions;
 
+/**
+ * SUPPLEMENTARY TO STATS.JAVA
+ * see that class for full solution
+ */
+
 public class ScoreInfo {
     
     private int score;
