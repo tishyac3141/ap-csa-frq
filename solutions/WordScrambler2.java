@@ -14,7 +14,7 @@ public class WordScrambler2 {
 
     private String recombine(String word1, String word2){
 
-        String half1 = word1.substring(0, (word1.length() / 2) - 1);
+        String half1 = word1.substring(0, word1.length() / 2);
         String half2 = word2.substring(word2.length() / 2, word2.length() - 1);
 
         return half1 + half2;
