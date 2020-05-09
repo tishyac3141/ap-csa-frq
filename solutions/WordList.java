@@ -2,6 +2,9 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * STAND ALONE QUESTION
+ */
 public class WordList {
 
     private ArrayList myList;
