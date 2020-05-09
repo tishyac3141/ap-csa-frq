@@ -2,6 +2,10 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * SUPPLEMENTARY WITH NUMBERTILE.JAVA
+ */
+
 public class TileGame {
 
     private ArrayList<NumberTile> board;
