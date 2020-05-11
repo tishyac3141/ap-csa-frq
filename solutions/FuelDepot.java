@@ -2,6 +2,9 @@ package solutions;
 
 import java.util.List;
 
+/**
+ * SUPPLEMENATRY WITH FUELROBOT.JAVA *and* FUELTANK.JAVA
+ */
 
 public class FuelDepot {
 
