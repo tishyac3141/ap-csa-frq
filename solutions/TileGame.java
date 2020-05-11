@@ -1,7 +1,6 @@
 package solutions;
 
 import java.util.ArrayList;
-
 /**
  * SUPPLEMENTARY WITH NUMBERTILE.JAVA
  */

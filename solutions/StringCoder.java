@@ -25,7 +25,13 @@ public class StringCoder {
         ArrayList<StringPart> parts = new ArrayList<StringPart>();
 
         int length = 0;
-        
+        StringPart part;
+
+        while(length < word.length()){
+            part = findPart(word.substring(length));
+            parts.add(part);
+            length += part.getLength() - 1;
+        }
 
         return parts;
 
