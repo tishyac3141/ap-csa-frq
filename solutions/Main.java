@@ -7,13 +7,13 @@ public class Main {
 
     public static void main(String[] args){
 
-        //System.out.println(SelfDivisor.isSelfDivisor(684));
+    
 
         /*
          * Test the Horse class with the following code
          * Final result should be: "Trigger", "Silver", "Patches", "Duke", null null, null
-        */
-        /*
+        
+        
         Horse[] horses = new Horse[7];
         horses[0] = new HorseClass(1340, "Trigger");
         horses[1] = null;
@@ -38,6 +38,11 @@ public class Main {
             else System.out.print(newHorses[i].getName() + " ");
         }
         */
+
+
+
+
+
 
         /*
          * Use this class to test your Customer code
@@ -89,6 +94,11 @@ public class Main {
         }
         */
 
+
+
+
+
+
         /**
          * Test the MusicDownloads class with the following
          * Final result should be:
@@ -139,6 +149,11 @@ public class Main {
 
         */
 
+
+
+
+
+
         /**
          * Test the scramble class using the following segment of code
          * 
@@ -168,6 +183,11 @@ public class Main {
         System.out.println(Scramble.scrambleWord("APPLE"));
 
         */
+
+
+
+
+
 
         /**
          * Use this to test your LogMessage and SystemLog classes
@@ -211,6 +231,11 @@ public class Main {
             System.out.println(lm.getMachineID() + ":" + lm.getDescription() + " ");
         }
         */
+
+
+
+
+
 
         /**
          * Use this to test your StringFormatter class
@@ -263,6 +288,11 @@ public class Main {
 
         */
         
+
+
+
+
+
         /**
          * Use this to test your ReviewCollector.java class
          
@@ -280,6 +310,11 @@ public class Main {
         System.out.println(collector.getNumGoodReviews("spoon"));
 
         */
+
+
+
+
+
 
         /**
          Use this to test your WordScrambler class
@@ -301,6 +336,10 @@ public class Main {
 
         */
 
+
+
+
+
         /**
          * Use this to test your DailySchedule + Appointment classes
          * your final ouput should be:
@@ -308,10 +347,6 @@ public class Main {
          * 5 3 2 3 4 1 1 3
          * 5 4 2 1 1 
          * true
-         */
-
-         /**
-          * Use this to test your Appointment + Daily Schedule classes
           
 
         ArrayList<Appointment> list = new ArrayList<Appointment>();
@@ -342,7 +377,32 @@ public class Main {
         System.out.println(schedule.addAppt(appt, true));
 
         */
+
+
+
+        /**
+         * Use this to test your Sound class
+         
+
+        Sound sound = new Sound();
+        for(int i = 0; i < sound.samples.length; i++){
+            System.out.print(sound.samples[i] + " ");
+        }
+
+        System.out.println();
+
+        sound.limitAmplitude(2000);
+        for(int i = 0; i < sound.samples.length; i++){
+            System.out.print(sound.samples[i] + " ");
+        }
+
+        System.out.println();
         
+        sound.trimSilenceFromBeginning();
+        for(int i = 0; i < sound.samples.length; i++){
+            System.out.print(sound.samples[i] + " ");
+        }
+        */
        
     } 
 
