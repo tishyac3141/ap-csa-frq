@@ -13,9 +13,11 @@ public class Digits {
         int digit;
         digitList = new ArrayList<Integer>();
 
+        if(num == 0) digitList.add(new Integer(0));
+
         while(num > 0){
             digit = num % 10;
-            digitList.add(0, digit);
+            digitList.add(0, new Integer(digit));
             num = num / 10;
         }
     }
@@ -23,13 +25,12 @@ public class Digits {
     public boolean isStrictlyIncreasing(){
         boolean isIncreasing = true;
         if(digitList.size() == 1) return true;
+
         for(int i = 1; i < digitList.size(); i++){
             if(digitList.get(i) <= digitList.get(i - 1)) isIncreasing = false;
         }
 
         return isIncreasing;
     }
-
-    
     
 }
