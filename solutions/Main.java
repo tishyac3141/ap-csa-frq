@@ -408,7 +408,7 @@ public class Main {
 
         /**
          * Use this to test the 'robot' class
-         */
+         
 
          Robot robot = new Robot();
 
@@ -421,6 +421,19 @@ public class Main {
          System.out.println();
 
          System.out.print(robot.pos + "  ");
+         */
+
+
+
+
+         /**
+          * Use this to test the 'trail' class
+          */
+
+          Trail trail = new Trail();
+          System.out.println(trail.isDifficult());
+          System.out.println(trail.isLevelTrailSegment(7, 10));
+          System.out.println(trail.isLevelTrailSegment(1, 8));
        
     } 
 
