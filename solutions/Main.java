@@ -425,6 +425,7 @@ public class Main {
 
 
 
+         
 
          /**
           * Use this to test the 'trail' class
@@ -436,6 +437,32 @@ public class Main {
           System.out.println(trail.isLevelTrailSegment(1, 8));
           
           */
+
+
+
+
+
+          /**
+           * Use this to test the Digits class
+           
+
+           Digits digit = new Digits(1356);
+           for(int i = 0; i < digit.digitList.size(); i++){
+                System.out.print(digit.digitList.get(i) + "  ");
+           }
+
+           System.out.println(digit.isStrictlyIncreasing());
+
+           System.out.println();
+
+           Digits digit2 = new Digits(133625);
+           for(int i = 0; i < digit2.digitList.size(); i++){
+                System.out.print(digit2.digitList.get(i) + "  ");
+           }
+
+           System.out.println(digit2.isStrictlyIncreasing());
+
+           */
        
     } 
 
