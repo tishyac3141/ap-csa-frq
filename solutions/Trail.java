@@ -1,5 +1,9 @@
 package solutions;
 
+/**
+ * STAND ALONE CLASS
+ */
+
 public class Trail {
 
     private int[] markers;

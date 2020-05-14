@@ -428,12 +428,14 @@ public class Main {
 
          /**
           * Use this to test the 'trail' class
-          */
+        
 
           Trail trail = new Trail();
           System.out.println(trail.isDifficult());
           System.out.println(trail.isLevelTrailSegment(7, 10));
           System.out.println(trail.isLevelTrailSegment(1, 8));
+          
+          */
        
     } 
 
