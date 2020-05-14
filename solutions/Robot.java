@@ -2,9 +2,15 @@ package solutions;
 
 public class Robot {
 
-    private int[] hall;
-    private int pos;
-    private boolean facingRight;
+    public int[] hall;
+    public int pos;
+    public boolean facingRight;
+
+    public Robot(){
+        hall = new int[] {1, 1, 2, 2};
+        pos = 1;
+        facingRight = true;
+    }
 
     private boolean forwardMoveBlocked(){
         if(pos + 1 > hall.length && facingRight) return true;
@@ -13,19 +19,10 @@ public class Robot {
     }
 
     private void move(){
-        if(hall[pos] == 0) {
-
-            if(forwardMoveBlocked()){
-                if(facingRight) facingRight = false;
-                else facingRight = true;
-            } else {
-                if(facingRight) pos++;
-                else pos--;
+        
+            if(hall[pos] > 0){ 
+                hall[pos] = hall[pos] - 1;
             }
-
-        }
-        else{
-            hall[pos] = hall[pos] - 1;
             
             if(hall[pos] == 0) {
 
@@ -33,14 +30,21 @@ public class Robot {
                     if(facingRight) facingRight = false;
                     else facingRight = true;
                 } else {
-                    if(facingRight) pos++;
-                    else pos--;
+                    if(facingRight){
+                        if(pos == hall.length - 1) pos = 0;
+                        else pos++;
+                    } 
+                    else {
+                        if(pos == 0) pos = hall.length - 1;
+                        else pos--;
+                    }
                 }
     
             }
-        }
-        
+         
     }
+        
+    
 
     public int clearHall(){
         int counter = 0;

@@ -403,6 +403,24 @@ public class Main {
             System.out.print(sound.samples[i] + " ");
         }
         */
+
+
+
+        /**
+         * Use this to test the 'robot' class
+         */
+
+         Robot robot = new Robot();
+
+         System.out.println(robot.clearHall());
+
+         for(int i = 0; i < robot.hall.length; i++){
+            System.out.print(robot.hall[i]);
+         }
+
+         System.out.println();
+
+         System.out.print(robot.pos + "  ");
        
     } 
 
