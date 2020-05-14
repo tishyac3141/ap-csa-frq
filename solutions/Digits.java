@@ -2,6 +2,9 @@ package solutions;
 
 import java.util.ArrayList;
 
+/**
+ * STAND ALONE CLASS
+ */
 public class Digits {
 
     public ArrayList<Integer> digitList;
