@@ -463,8 +463,34 @@ public class Main {
            System.out.println(digit2.isStrictlyIncreasing());
 
            */
+
+
+
            
-       
+           /**
+            * Use this to test your 'MasterOrder' class
+            
+
+           ArrayList<CookieOrder> list = new ArrayList<CookieOrder>();
+
+           list.add(new CookieOrder("Chocolate Chip", 1));
+           list.add(new CookieOrder("Shortbread", 5));  
+           list.add(new CookieOrder("Macaroon", 2));  
+           list.add(new CookieOrder("Chocolate Chip", 3));
+           
+           for(int i = 0; i < list.size(); i++){
+               System.out.println(list.get(i).getVariety() + " " + list.get(i).getNumBoxes());
+           }
+
+           MasterOrder order = new MasterOrder(list);
+           order.removeVariety("Chocolate Chip");
+           System.out.println();
+
+           for(int i = 0; i < order.orders.size(); i++){
+               System.out.println(order.orders.get(i).getVariety() + " " + order.orders.get(i).getNumBoxes());
+           }
+
+           */
     } 
 
 }
