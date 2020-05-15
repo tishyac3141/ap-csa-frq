@@ -444,7 +444,7 @@ public class Main {
 
           /**
            * Use this to test the Digits class
-           */
+           
 
            Digits digit = new Digits(1356);
            for(int i = 0; i < digit.digitList.size(); i++){
@@ -462,6 +462,7 @@ public class Main {
 
            System.out.println(digit2.isStrictlyIncreasing());
 
+           */
            
        
     } 
