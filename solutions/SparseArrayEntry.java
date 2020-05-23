@@ -1,5 +1,10 @@
 package solutions;
 
+/**
+ * SUPPLEMENTARY TO SPARSEARRAY.JAVA
+ * see that for full solution
+ */
+
 public class SparseArrayEntry{
     private int row;
     private int col;
