@@ -1,7 +1,7 @@
 package questions;
 
 /**
- * SUPPLEMENTARY 
+ * SUPPLEMENTARY to SPARSEARRAY.JAVA
  */
 
 public class SparseArrayEntry{
