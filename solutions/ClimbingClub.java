@@ -15,10 +15,12 @@ public class ClimbingClub {
         climbList = new ArrayList<ClimbInfo>();
     }
 
+    
     public void addClimb1(String peakName, int climbTime){
         ClimbInfo newClimb = new ClimbInfo(peakName, climbTime);
         climbList.add(newClimb);
     }
+
 
     public void addClimb2(String peakName, int climbTime){
         ClimbInfo newClimb = new ClimbInfo(peakName, climbTime);
